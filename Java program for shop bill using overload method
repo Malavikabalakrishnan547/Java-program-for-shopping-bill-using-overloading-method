@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class discount {
+
+    static int Multiply(int tot, int b) {
+
+        return tot * b / 100;
+    }
+
+    static int Multiply(int tot, int b, int tax) {
+
+        return tot + b + tax;
+    }
+}
+
+class shop {
+
+    public static void main(String[] args) {
+        System.out.println("Shop Shop!!");
+        System.out.println("Total amount:1000");
+        System.out.println("Discount " + discount.Multiply(1000, 5));
+        System.out.println("Grand total:" + discount.Multiply(1000, 5, 4 / 2));
+        System.out.println("thank you!!");
+    }
+}
