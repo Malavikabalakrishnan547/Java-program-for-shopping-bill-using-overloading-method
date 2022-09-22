@@ -23,3 +23,10 @@ class shop {
         System.out.println("thank you!!");
     }
 }
+
+//OUTPUT OF THE ABOVE CODE
+Shop Shop!!
+Total amount:1000
+Discount 50
+Grand total:1007
+thank you!!
